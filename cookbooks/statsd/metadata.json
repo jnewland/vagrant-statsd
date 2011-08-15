@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "git": ">= 0.0.0",
+    "build-essential": ">= 0.0.0"
+  },
+  "name": "statsd",
+  "maintainer_email": "jon@blankpad.net",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "Jon Wood",
+  "long_description": "= DESCRIPTION:\n\nInstalls and configures Statsd (http://github.com/etsy/statsd)\n\n= REQUIREMENTS:\n\nUbuntu 11.04 (Natty)\n\n= ATTRIBUTES:\n\n* statsd/port : The port for Statsd to listen for stats on.\n* statsd/graphite_host : The host to forward processed statistics to.\n* statsd/graphite_port : The port to forward processed statistics to.\n\n= USAGE:\n\nInclude the statsd recipe, which will checkout Statsd from git, build a Debian package from it, \nand then install the package. Statsd is run under a \"statsd\" system user.\n\nBy default statsd will attempt to send statistics to a graphite instance running on localhost, which\ncan be configured using the Graphite cookbook at http://community.opscode.com/cookbooks/graphite.\n\n= CAVEATS:\n\nThis cookbook has only been tested on Ubuntu Natty (11.04). That is due to it using the \"nodejs\" package\nrather then attempting to build Node from source.\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures statsd",
+  "providing": {
+  }
+}
