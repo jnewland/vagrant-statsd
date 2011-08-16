@@ -7,6 +7,7 @@ Vagrant + Chef config for a local statsd development box.
 
 >    `bundle install --binstubs --path vendor/bundle`
 
+* Toss your hosted chef keys and knife config in `.chef`
 * Bring up the virtual machine
 
 >    `./bin/vagrant box add lucid64 http://files.vagrantup.com/lucid64.box`  
